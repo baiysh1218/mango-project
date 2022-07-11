@@ -1,0 +1,32 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1583px;
+}
+.navber-background {
+  background-color: white;
+}
+.navbar-logo-block {
+  display: flex;
+  align-items: center;
+}
+.navbar-block-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.logo-mango-navbar {
+  width: 144px;
+  padding: 2% 0;
+}
+.navbar-icon {
+  width: 22px;
+  color: rgb(32, 32, 32);
+}
+.navbar-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
