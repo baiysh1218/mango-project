@@ -11,6 +11,9 @@ function reducer(state = INIT_STATE, action) {}
 
 const ProductsContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
+  return (
+    <productsContext.Provider value={{}}>{children}</productsContext.Provider>
+  );
 };
 
 export default ProductsContextProvider;

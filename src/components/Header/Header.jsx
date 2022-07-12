@@ -14,9 +14,6 @@ const Header = () => {
       <div className="container">
         <div className="navbar-block">
           <div></div>
-          {/* <div>
-            <p>женское</p>
-          </div> */}
           <div className="navbar-logo-block">
             <img
               className="logo-mango-navbar"
