@@ -15,5 +15,3 @@ const ProductsContextProvider = ({ children }) => {
     <productsContext.Provider value={{}}>{children}</productsContext.Provider>
   );
 };
-
-export default ProductsContextProvider;
