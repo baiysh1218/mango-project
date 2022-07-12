@@ -11,7 +11,7 @@ const App = () => {
         <Header />
         <Routing />
       </BrowserRouter>
-    </ProductsContextProvider>
+     </ProductsContextProvider>
   );
 };
 
