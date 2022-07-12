@@ -1,13 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Intro = () => {
-    return (
-        <div className='container'>
-           INTRO 
-
-
-        </div>
-    );
+  return <div className="container">INTRO lkfvhjpfnbjkfb</div>;
 };
 
 export default Intro;
