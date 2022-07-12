@@ -4,7 +4,7 @@ import axios from "axios";
 export const productsContext = createContext();
 
 const INIT_STATE = {
-  products: [],
+  products: [2222],
 };
 
 function reducer(state = INIT_STATE, action) {}
