@@ -13,6 +13,10 @@ const Header = () => {
     <div className="navber-background">
       <div className="container">
         <div className="navbar-block">
+          <div></div>
+          {/* <div>
+            <p>женское</p>
+          </div> */}
           <div className="navbar-logo-block">
             <img
               className="logo-mango-navbar"
@@ -21,15 +25,24 @@ const Header = () => {
             />
           </div>
           <div className="navbar-block-icons">
-            <IconButton>
-              <SearchIcon className="navbar-icon" />
-            </IconButton>
-            <IconButton>
-              <PermIdentityIcon className="navbar-icon" />
-            </IconButton>
-            <IconButton>
-              <FavoriteBorderIcon className="navbar-icon" />
-            </IconButton>
+            <div className="navbar-icon-content-block">
+              <IconButton>
+                <SearchIcon className="navbar-icon" />
+              </IconButton>
+              <p className="navbar-icon-p">поиск</p>
+            </div>
+            <div className="navbar-icon-content-block">
+              <IconButton>
+                <PermIdentityIcon className="navbar-icon" />
+              </IconButton>
+              <p className="navbar-icon-p">вход</p>
+            </div>
+            <div className="navbar-icon-content-block">
+              <IconButton>
+                <FavoriteBorderIcon className="navbar-icon" />
+              </IconButton>
+              <p className="navbar-icon-p">избранные</p>
+            </div>
           </div>
         </div>
       </div>

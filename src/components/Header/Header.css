@@ -12,14 +12,17 @@
 .navbar-logo-block {
   display: flex;
   align-items: center;
+  margin-left: 5%;
+  padding: 15px 0;
 }
 .navbar-block-icons {
   display: flex;
   justify-content: flex-end;
+  margin-right: 2%;
 }
 .logo-mango-navbar {
   width: 144px;
-  padding: 2% 0;
+  padding: 1% 0;
 }
 .navbar-icon {
   width: 22px;
@@ -29,4 +32,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.navbar-icon-p {
+  font-size: 13px;
+}
+.navbar-icon-content-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
 }
