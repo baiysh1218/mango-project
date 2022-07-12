@@ -12,5 +12,3 @@ function reducer(state = INIT_STATE, action) {}
 const ProductsContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
 };
-
-export default ProductsContextProvider;
